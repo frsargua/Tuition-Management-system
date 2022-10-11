@@ -1,6 +1,7 @@
 import Sidebar from "../components/Dashboard/Sidebard";
 import Navbar from "../components/Dashboard/Navbar";
 import StudentGrades from "../components/Dashboard/StudentGrades";
+import StudentAverage from "../components/Dashboard/StudentAverage";
 
 const navbarWidth = "250px";
 
@@ -9,7 +10,7 @@ function Dashboard() {
     <>
       <Sidebar navbarWidth={navbarWidth} />
       <Navbar navbarWidth={navbarWidth} />
-      <StudentGrades />
+      <StudentAverage />
     </>
   );
 }

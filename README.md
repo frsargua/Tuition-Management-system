@@ -3,9 +3,10 @@
     - See his hw
     - Be uptodate with the schedules
     - Access the zoom links
-    - Create a private 1-to-1 tuition request
+    - Create a private 1-to-1 tuition request DONE
     - Pay for the lessons using stripe
     - See the tuition roadmap
+    - See grades for tests
 
 ### The app should allow the teacher to:
 
