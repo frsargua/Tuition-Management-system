@@ -1,10 +1,10 @@
 import "./App.css";
-import Sidebar from "./components/Dashboard/Sidebard";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
     <div className="App">
-      <Sidebar />
+      <Dashboard />
     </div>
   );
 }

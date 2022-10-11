@@ -40,8 +40,6 @@ import NavItem from "./NavItem";
 //   },
 // ];
 
-const drawerWidth = 240;
-
 const items = [
   {
     title: "Dashboard",
@@ -66,11 +64,13 @@ const items = [
   },
 ];
 
-function Sidebar() {
+function Sidebar(props) {
+  const { navbarWidth } = props;
+
   const content = (
     <>
       <Box sx={{ display: "flex", justifyContent: "start", p: 3 }}>
-        <img style={{ width: "30%" }} src={require("../../icons/logo.png")} />
+        <img style={{ width: "20%" }} src={require("../../icons/logo.png")} />
       </Box>
       <Box sx={{ px: 2 }}>
         <Box
@@ -113,10 +113,10 @@ function Sidebar() {
       {" "}
       <Drawer
         sx={{
-          width: drawerWidth,
+          width: navbarWidth,
           flexShrink: 0,
           "& .MuiDrawer-paper": {
-            width: drawerWidth,
+            width: navbarWidth,
             boxSizing: "border-box",
           },
         }}
